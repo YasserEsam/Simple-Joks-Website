@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(225, 158, 0);
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(32, 32, 32);
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+.container h2 {
+    font-size: 6rem;
+    margin-bottom: 10px;
+}
+
+.container p {
+    color: wheat;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.container button {
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    background-color:rgb(225, 158, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+
+.container button:hover {
+    background-color: rgb(180, 126, 0);
+}
