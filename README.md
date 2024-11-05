@@ -9,7 +9,7 @@ Welcome to the **Jokes Website** — a fun project to lighten up your day with r
 
 ## 🌐 Live Demo
 
-Check out the live version here: [Jokes Website Live]([YOUR_LIVE_VERSION_LINK_HERE](https://yasseresam.github.io/Simple-Joks-Website/))
+Check out the live version here: [Jokes Website Live](https://yasseresam.github.io/Simple-Joks-Website/)
 
 
 ## 🛠️ Tech Stack
