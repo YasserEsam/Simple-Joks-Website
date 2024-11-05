@@ -8,17 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
-    <title>Jokes Website</title>
+    <title>Joke Generator</title>
 </head>
 
 <body>
 
     <div class="container">
         <h2>😂</h2>
-        <p id="joke"> </p>
-        <button id="btn">Next Joke</button>
+        <h1>Programming Jokes</h1>
+        <div class="joke-container">
+            <p id="joke" class="fade-in"></p>
+            <div id="spinner" class="spinner hidden"></div>
+        </div>
+        <button id="btn">Get Another Joke</button>
     </div>
-
 
     <script src="app.js"></script>
 </body>
